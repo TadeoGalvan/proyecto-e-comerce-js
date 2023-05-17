@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>
+    <link rel="stylesheet" href="../css/estilos.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <aside>
+            <header>
+                <h1 class="logo">Nombre del shop</h1>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a class="boton-volver menu-boton " href="../index.html"><i class="bi bi-arrow-return-left"></i> Volver a la tieda</a>
+                    </li>
+                    <li class="boton-carrito active">
+                        <a class=" menu-boton " href="./carrito.html"><i class="bi bi-cart-fill"></i> Carrito <span class="numerito">0</span></a>
+                    </li>
+                    <li class="boton-nosotros">
+                        <a class=" menu-boton" href="./nosotros.html"><i class="bi bi-person-circle"></i> Nosotros</a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© Tadeo Galvan</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal">Carrito</h2>
+            <div class="contenedor-carrito">
+                <p class="carrito-vacio">Tu carrito esta vacio <i class="bi bi-emoji-frown"></i></p>
+                <div class="carrito__productos disabled">
+                    <div class="carrito__producto">
+                        <img src="https://picsum.photos/200/300" alt="producto">
+                        <div class="carrito__producto-titulo">
+                            <small>Titulo</small>
+                            <h3>abrigo 01</h3>
+                        </div>
+                        <div class="carrito__producto-cantidad">
+                            <small>Cantidad</small>
+                            <p>1</p>
+                        </div>
+                        <div class="carrito__producto-precio">
+                            <small>Precio</small>
+                            <p>$1000</p>
+                        </div>
+                        <div class="carrito__producto-subtotal">
+                            <small>Subtotal</small>
+                            <p>$1000</p>
+                        </div>
+                        <button class="carrito__producto-eliminar"><i class="bi bi-trash"></i></button>
+                    </div>
+                    <div class="carrito__producto">
+                        <img src="https://picsum.photos/200/300" alt="producto">
+                        <div class="carrito__producto-titulo">
+                            <small>Titulo</small>
+                            <h3>abrigo 01</h3>
+                        </div>
+                        <div class="carrito__producto-cantidad">
+                            <small>Cantidad</small>
+                            <p>1</p>
+                        </div>
+                        <div class="carrito__producto-precio">
+                            <small>Precio</small>
+                            <p>$1000</p>
+                        </div>
+                        <div class="carrito__producto-subtotal">
+                            <small>Subtotal</small>
+                            <p>$1000</p>
+                        </div>
+                        <button class="carrito__producto-eliminar"><i class="bi bi-trash"></i></button>
+                    </div>
+                </div>
+                <div class="disabled carrito__acciones ">
+                    <div class="carrito__acciones-izquierda">
+                        <button class="carrito__acciones-vaciar">Vaciar carrito</button>
+                    </div>
+                    <div class="carrito__acciones-derecha">
+                        <div class="carrito__acciones-total">
+                            <p>Total:</p>
+                            <p id="total"> $3000</p>
+                        </div>
+                        <button class="carrito__acciones-comprar">Comprar ahora</button>
+                    </div>
+                </div>
+                <p class="carrito-comprado disabled">Muchas gracias por tu compra <i class="bi bi-emoji-smile"></i></p>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
