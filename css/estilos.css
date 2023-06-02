@@ -42,7 +42,8 @@ a {
         .wrapper aside nav .menu-boton {
           color: #efefef;
           padding: .75rem;
-          font-size: .85rem; }
+          font-size: .85rem;
+          cursor: pointer; }
         .wrapper aside nav .menu .boton-categoria {
           background-color: transparent;
           border: 0;
@@ -104,32 +105,36 @@ a {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       gap: 1rem; }
-      .wrapper main .contenedor-productos .producto__imagen {
-        max-width: 100%;
-        border-radius: 1rem; }
-      .wrapper main .contenedor-productos .producto__texto {
-        padding: .5rem;
-        background-color: #b7d1a3;
+      .wrapper main .contenedor-productos .producto {
         display: flex;
-        flex-direction: column;
-        gap: .25rem;
-        border-radius: 1rem;
-        margin-top: -2rem;
-        position: relative; }
-        .wrapper main .contenedor-productos .producto__texto-titulo {
-          font-size: 1rem; }
-        .wrapper main .contenedor-productos .producto__texto-boton {
-          border: 0;
-          background-color: #efefef;
-          padding: .25rem;
-          text-transform: uppercase;
-          border-radius: 2rem;
-          border: 2px solid #dee8be;
-          cursor: pointer;
-          transition: all .3s; }
-          .wrapper main .contenedor-productos .producto__texto-boton:hover {
-            background-color: #b7d1a3;
-            color: #efefef; }
+        justify-content: center;
+        flex-direction: column; }
+        .wrapper main .contenedor-productos .producto__imagen {
+          max-width: 100%;
+          border-radius: 1rem; }
+        .wrapper main .contenedor-productos .producto__texto {
+          padding: .5rem;
+          background-color: #b7d1a3;
+          display: flex;
+          flex-direction: column;
+          gap: .25rem;
+          border-radius: 1rem;
+          margin-top: -2rem;
+          position: relative; }
+          .wrapper main .contenedor-productos .producto__texto-titulo {
+            font-size: 1rem; }
+          .wrapper main .contenedor-productos .producto__texto-boton {
+            border: 0;
+            background-color: #efefef;
+            padding: .25rem;
+            text-transform: uppercase;
+            border-radius: 2rem;
+            border: 2px solid #dee8be;
+            cursor: pointer;
+            transition: all .3s; }
+            .wrapper main .contenedor-productos .producto__texto-boton:hover {
+              background-color: #b7d1a3;
+              color: #efefef; }
 
 .contenedor-carrito {
   display: flex;

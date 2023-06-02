@@ -27,6 +27,7 @@
                     color: $white;
                     padding: .75rem;
                     font-size: .85rem;
+                    cursor: pointer;
                     
                 }
                 .boton-categoria{
@@ -106,6 +107,9 @@
             gap: 1rem;
 
             .producto{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
                 &__imagen{
                     max-width: 100%;
                     border-radius: 1rem;

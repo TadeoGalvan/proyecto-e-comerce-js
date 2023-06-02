@@ -16,32 +16,32 @@
             <nav>
                 <ul class="menu">
                     <li> 
-                        <button class="menu-boton boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i>Todos los productos</button>
+                        <button id="todos" class="menu-boton boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i>Todos los productos</button>
                     </li>
                     <li>
-                        <button class="menu-boton boton-categoria"><i class="bi bi-hand-index-thumb"></i>Figuras</button>
+                        <button id="figuras" class="menu-boton boton-categoria"><i class="bi bi-hand-index-thumb"></i>Figuras</button>
                         <ul class="boton-categoria-sub">
                             <li>
-                                <button class="menu-boton boton-categoria"><i class="bi bi-hand-index-thumb"></i>dragon ball</button>
+                                <button id="figuraDragonBall" class="menu-boton boton-categoria"><i class="bi bi-hand-index-thumb"></i>dragon ball</button>
                             </li>
                             <li>
-                                <button class="menu-boton boton-categoria"><i class="bi bi-hand-index-thumb"></i>naruto</button>
+                                <button id="figuraNaruto" class="menu-boton boton-categoria"><i class="bi bi-hand-index-thumb"></i>naruto</button>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <button class="menu-boton boton-categoria"><i class="bi bi-hand-index-thumb"></i>Mangas</button>
+                        <button id="mangas" class="menu-boton boton-categoria"><i class="bi bi-hand-index-thumb"></i>Mangas</button>
                         <ul class="boton-categoria-sub">
                             <li>
-                                <button class="menu-boton boton-categoria"><i class="bi bi-hand-index-thumb"></i>Shonen</button>
+                                <button id="mangaShonen" class="menu-boton boton-categoria"><i class="bi bi-hand-index-thumb"></i>Shonen</button>
                             </li>
                             <li>
-                                <button class="menu-boton boton-categoria"><i class="bi bi-hand-index-thumb"></i>Seinen</button>
+                                <button id="mangaSeinen" class="menu-boton boton-categoria"><i class="bi bi-hand-index-thumb"></i>Seinen</button>
                             </li>
                         </ul>
                     </li>
                     <li class=" boton-carrito ">
-                        <a class="menu-boton" href="./pages/carrito.html"><i class="bi bi-cart-fill"></i> Carrito <span class="numerito">0</span></a>
+                        <a class="menu-boton" href="./pages/carrito.html"><i class="bi bi-cart-fill"></i> Carrito <span id="numerito" class="numerito">0</span></a>
                     </li>
                     <li class="boton-nosotros">
                         <a class="menu-boton menu-boton " href="./pages/nosotros.html"><i class="bi bi-person-circle"></i> Nosotros</a>
@@ -53,85 +53,13 @@
             </footer>
         </aside>
         <main>
-            <h2 class="titulo-principal">Todos los productos</h2>
-            <div class="contenedor-productos">
-                <div class="producto">
-                    <img class="producto__imagen" src="img/figuras/goku/figura-goku.jpg" alt="">
-                    <div class="producto__texto">
-                        <h3 class="producto__texto-titulo">figura 01</h3>
-                        <p class="producto__texto-precio">$1100</p>
-                        <button class="producto__texto-boton">agregar</button>
-                    </div>
-                </div>
-                <div class="producto">
-                    <img class="producto__imagen" src="img/figuras/goku/figura-goku1.jpg" alt="">
-                    <div class="producto__texto">
-                        <h3 class="producto__texto-titulo">figura 01</h3>
-                        <p class="producto__texto-precio">$1100</p>
-                        <button class="producto__texto-boton">agregar</button>
-                    </div>
-                </div>
-                <div class="producto">
-                    <img class="producto__imagen" src="https://picsum.photos/200/300" alt="">
-                    <div class="producto__texto">
-                        <h3 class="producto__texto-titulo">figura 01</h3>
-                        <p class="producto__texto-precio">$1100</p>
-                        <button class="producto__texto-boton">agregar</button>
-                    </div>
-                </div>
-                <div class="producto">
-                    <img class="producto__imagen" src="https://picsum.photos/200/300" alt="">
-                    <div class="producto__texto">
-                        <h3 class="producto__texto-titulo">figura 01</h3>
-                        <p class="producto__texto-precio">$1100</p>
-                        <button class="producto__texto-boton">agregar</button>
-                    </div>
-                </div>
-                <div class="producto">
-                    <img class="producto__imagen" src="https://picsum.photos/200/300" alt="">
-                    <div class="producto__texto">
-                        <h3 class="producto__texto-titulo">figura 01</h3>
-                        <p class="producto__texto-precio">$1100</p>
-                        <button class="producto__texto-boton">agregar</button>
-                    </div>
-                </div>
-                <div class="producto">
-                    <img class="producto__imagen" src="https://picsum.photos/200/300" alt="">
-                    <div class="producto__texto">
-                        <h3 class="producto__texto-titulo">figura 01</h3>
-                        <p class="producto__texto-precio">$1100</p>
-                        <button class="producto__texto-boton">Agregar</button>
-                    </div>
-                </div>
-                <div class="producto">
-                    <img class="producto__imagen" src="https://picsum.photos/200/300" alt="">
-                    <div class="producto__texto">
-                        <h3 class="producto__texto-titulo">figura 01</h3>
-                        <p class="producto__texto-precio">$1100</p>
-                        <button class="producto__texto-boton">Agregar</button>
-                    </div>
-                </div>
-                <div class="producto">
-                    <img class="producto__imagen" src="https://picsum.photos/200/300" alt="">
-                    <div class="producto__texto">
-                        <h3 class="producto__texto-titulo">figura 01</h3>
-                        <p class="producto__texto-precio">$1100</p>
-                        <button class="producto__texto-boton">Agregar</button>
-                    </div>
-                </div>
-                <div class="producto">
-                    <img class="producto__imagen" src="https://picsum.photos/200/300" alt="">
-                    <div class="producto__texto">
-                        <h3 class="producto__texto-titulo">figura 01</h3>
-                        <p class="producto__texto-precio">$1100</p>
-                        <button class="producto__texto-boton">Agregar</button>
-                    </div>
-                </div>
-
+            <h2 id="titulo-principal" class="titulo-principal">Todos los productos</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+            <!-- SE COMPLETA EN JS -->
             </div>
 
         </main>
     </div>
-    
+    <script src="js/main.js"></script>
 </body>
 </html>
