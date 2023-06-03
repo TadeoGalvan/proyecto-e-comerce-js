@@ -1,0 +1,17 @@
+.nosotros{
+    background-color: $intermainwrapper;
+    padding: 2rem;
+    border-radius: 2rem;
+    font-size: 1.25rem;
+    color: $fontcolor;
+    text-indent: 2rem;
+    font-style: italic;
+    &__saludo{
+        text-align: right 
+    }
+    p::first-letter{
+        font-style: italic;
+        font-size: 1.75rem;
+        color: #62a81b;
+    }
+}
